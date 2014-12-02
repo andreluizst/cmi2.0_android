@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradiente_verde"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.android.cmi.cmiapp.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ProgressBar
+        android:id="@+id/progressBarMainActivity"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="65"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llSettings"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/icon_background" >
+
+        <ImageView
+            android:id="@+id/imgSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/configuracoes_01" />
+
+        <TextView
+            android:id="@+id/txtSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/action_settings"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSeekDoctors"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/icon_background"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imgSeekDoctors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/consult_doctor"
+            android:src="@drawable/buscar_medico_02" />
+
+        <TextView
+            android:id="@+id/txtSeekDoctors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/consult_doctor"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llScheduledAppointments"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/icon_background"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imgScheduledAppointments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/search_for_scheduled_appointments"
+            android:src="@drawable/buscar_consultas_agendadas_01" />
+
+        <TextView
+            android:id="@+id/txtScheduledAppointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/search_for_scheduled_appointments"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llChangePassword"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_background"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:focusable="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imgChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/change_password"
+            android:src="@drawable/senha_01" />
+
+        <TextView
+            android:id="@+id/txtChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/change_password"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="@android:Theme.Holo.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+		
+        -->
+
+    </style>
+
+
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.Cmi">
+
+        <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+
+    </style>
+
+    <style name="MyMenuStyle" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/background_gradiente_verde</item>
+        <item name="android:background">@drawable/background_gradiente_verde</item>
+    </style>
+
+    <style name="MyActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@drawable/background_gradiente_verde</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!--<item name="android:actionBarItemBackground">@android:color/transparent</item> -->
+    </style>
+
+    <!-- action bar title text -->
+    <style name="TitleTextStyle" parent="android:Widget.ActionBar">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- action bar tab text
+    <style name="TabTextStyle" parent="android:Widget.ActionBar.TabText">
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style> -->
+
+</resources>

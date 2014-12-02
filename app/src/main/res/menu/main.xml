@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.android.cmi.cmiapp.MainActivity" >
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_change_password"
+        android:orderInCategory="100"
+        android:title="@string/change_password"
+        android:visible="false"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_avaliar_medico"
+        android:orderInCategory="100"
+        android:title="@string/evaluate_medical"
+        android:visible="false"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_search_for_scheduled_appointments"
+        android:orderInCategory="100"
+        android:title="@string/search_for_scheduled_appointments"
+        android:visible="false"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_cancelar_agendamento"
+        android:orderInCategory="100"
+        android:title="@string/cancel_scheduling"
+        android:visible="false"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_consultar_medico"
+        android:orderInCategory="100"
+        android:title="@string/consult_doctor"
+        android:visible="false"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_consultar_historico_atendimento"
+        android:orderInCategory="100"
+        android:title="@string/historical_consulting_service"
+        android:visible="false"
+        android:showAsAction="never"/>
+    
+    
+
+</menu>

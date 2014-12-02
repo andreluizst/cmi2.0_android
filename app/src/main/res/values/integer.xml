@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="ime_action_login" type="integer">100</item>
+	<item name="ime_action_seek_doctor" type="integer">200</item>
+	<item name="ime_action_search_for_scheduled_appointments" type="integer">300</item>
+	<item name="ime_action_change_passwrod" type="integer">400</item>
+	<item name="ime_action_evaluate_care" type="integer">500</item>    
+</resources>
